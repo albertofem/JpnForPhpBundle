@@ -1,7 +1,7 @@
 JpnForPhpBundle
 ===============
 
-[![build status](https://secure.travis-ci.org/albertofem/jpnforphp-bundle.png)](http://travis-ci.org/albertofem/jpnforphp-bundle)
+[![build status](https://secure.travis-ci.org/albertofem/JpnForPhpBundle.png)](http://travis-ci.org/albertofem/JpnForPhpBundle)
 
 Integrates jpnforphp library with the Symfony2 framework.
 
