@@ -17,10 +17,10 @@ class AppKernel extends Kernel
      */
     public function registerBundles()
     {
-        return [
+        return array(
             new \Symfony\Bundle\FrameworkBundle\FrameworkBundle(),
             new \AFM\Bundle\JpnForPhpBundle\JpnForPhpBundle()
-        ];
+        );
     }
 
     /**
