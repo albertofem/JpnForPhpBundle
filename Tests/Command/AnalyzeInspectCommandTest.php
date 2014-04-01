@@ -38,7 +38,7 @@ class AnalyzeInspectCommandTest extends WebTestCase
         return __DIR__ . '/../../';
     }
 
-    protected static function createKernel($options)
+    protected static function createKernel(array $options = array())
     {
         return new AppKernel("test", true);
     }
