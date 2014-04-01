@@ -15,12 +15,12 @@ class JpnForPhpExtensionTest extends WebTestCase
 {
     public function testRomajiServicesAreSetted()
     {
-        $romanizations = [
+        $romanizations = array(
             'hepburn',
             'kunrei',
             'nihon',
             'wapuro'
-        ];
+        );
 
         $container = self::createClient()->getContainer();
 
