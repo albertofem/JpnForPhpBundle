@@ -1,9 +1,13 @@
 <?php
 
 /*
- * Copyright (c) 2014 Certadia, SL
- * All rights reserved
- */
+* This file is part of JpnForPhpBundle
+*
+* (c) Alberto Fernández <albertofem@gmail.com>
+*
+* For the full copyright and license information, please read
+* the LICENSE file that was distributed with this source code.
+*/
 
 namespace AFM\Bundle\JpnForPhpBundle\Tests;
 
