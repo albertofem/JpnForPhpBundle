@@ -1,0 +1,21 @@
+{
+    "name": "albertofem/jpnforphp-bundle",
+    "description": "JpnForPhp Symfony2 bundle integration",
+    "keywords": ["jpnforphp kanji japanese library romaji symfony"],
+    "homepage": "http://albertofem.com",
+    "require": {
+        "symfony/symfony": "2.4.*",
+        "mbilbille/jpnforphp": "@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alberto Fernández",
+            "email": "albertofem@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": { "AFM\\Bundle\\JpnForPhpBundle": "" }
+    },
+    "target-dir": "AFM/Bundle/JpnForPhpBundle"
+}

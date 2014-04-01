@@ -1,0 +1,14 @@
+services:
+    jpnforphp.transliterator.romaji.hepburn:
+        class: JpnForPhp\Transliterator\Romaji
+    jpnforphp.transliterator.romaji.kunrei:
+        class: JpnForPhp\Transliterator\Romaji
+        arguments: ["kunrei"]
+    jpnforphp.transliterator.romaji.nihon:
+        class: JpnForPhp\Transliterator\Romaji
+        arguments: ["nihon"]
+    jpnforphp.transliterator.romaji.wapuro:
+        class: JpnForPhp\Transliterator\Romaji
+        arguments: ["wapuro"]
+    jpnforphp.transliterator.romaji:
+        alias: jpnforphp.transliterator.romaji.hepburn
