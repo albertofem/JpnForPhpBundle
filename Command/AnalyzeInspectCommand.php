@@ -22,7 +22,7 @@ class AnalyzeInspectCommand extends Command
     protected function configure()
     {
         $this ->setName('jpnforphp:analyze:inspect')
-            ->setDescription('Analyze a give Japanese sentence')
+            ->setDescription('Analyze a given Japanese sentence')
             ->addArgument("sentence", InputArgument::REQUIRED, "Japanese input sentence");
     }
 
